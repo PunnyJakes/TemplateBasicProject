@@ -7,16 +7,17 @@
                 "cschlosser.doxdocgen",
                 "ascholer.chemeketa-gitdoc",
                 "ms-vscode.cpptools",
-                "davidkaiser.kaiser-project-zip",
+                "davidkaiser.kaiser-project-zip"
             ]
         },
         "codespaces": {
             "openFiles": [
-                "main.cpp",
+                "main.cpp"
             ]
         }
     },
     "build": {
         "dockerfile": "Dockerfile"
     },
+    "postCreateCommand": "git config --global user.name \"PunnyJakes\" && git config --global user.email \"113552571+PunnyJakes@://github.com\""
 }
